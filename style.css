@@ -1,0 +1,74 @@
+body {
+    background-color: #D2DAFF;
+}
+
+.header {
+    text-align: center;
+    font-family: sans-serif;
+    color: rgb(10, 137, 248);
+    background-color: #032a38;
+    padding: 20px;
+}
+.card{
+    box-shadow: 0 10px 20px rgb(59, 158, 244);
+}
+.img-fluid{
+    height: 277px;
+}
+.content {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #130202;
+    font-family: sans-serif;
+}
+
+h3{
+    font-weight: 600;
+    padding: 20px;
+    color: #055a7c;
+}
+
+#value {
+    height: 25px;
+    border-radius: 10px;
+    border-color: #17282e;
+}
+
+.btn{
+    margin-left: 50px;
+    height: 50px;
+    width: 70px;
+    box-shadow: 0 10px 20px rgb(50, 121, 244);
+}
+
+.btn-danger{
+    width: 150px;
+    box-shadow: 0 10px 20px rgb(244, 59, 59);
+}
+
+#label{
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 50px;
+    color: #021233;
+    text-shadow: 0 10px 20px rgb(26, 30, 255);
+}
+#label2{
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 50px;
+    color: #0468f4;
+    text-shadow: 0 10px 20px rgb(26, 30, 255);
+}
+
+@media only screen and (max-width: 566px) {
+    .btn{
+        margin-top: 20px;
+    }
+}
